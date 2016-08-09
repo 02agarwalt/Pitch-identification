@@ -1,0 +1,9 @@
+Playing around with pitch identification using the Melodia melody extraction algorithm (created by Justin Salamon) available on Github.
+
+test.py takes in the .wav sound file and prints an estimation of the melody in the file (in terms of notes). The program works by smoothing out and discretizing the extracted melody line, and then converting the frequencies to notes.
+
+Requires vamp and librosa.
+
+Usage:
+
+python test.py soundFile.wav
